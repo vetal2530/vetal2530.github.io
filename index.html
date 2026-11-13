@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Journal — Smart Car Logbook, Expense Tracker &amp; Service Book | ThinkStudio</title>
+  <meta name="description" content="Auto Journal is a local-first Android car organizer by ThinkStudio for tracking fuel &amp; EV charging, maintenance schedules, repair expenses, PDF service reports, OBD-II diagnostics, and private Google Drive appDataFolder backups.">
+  <meta property="og:title" content="Auto Journal — Smart Car Logbook &amp; Service Book">
+  <meta property="og:description" content="Track fuel &amp; EV charging, plan car maintenance, export PDF reports, and back up privately to your own Google Drive.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thinkstudio.site/">
+  <link rel="canonical" href="https://thinkstudio.site/">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="lang.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="index.html">
+        <img src="favicon.svg" alt="Auto Journal logo" width="38" height="38">
+        <span class="brand-text">
+          <span class="brand-name">Auto Journal</span>
+          <span class="brand-studio">by ThinkStudio</span>
+        </span>
+      </a>
+      <div class="nav-right">
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="index.html" aria-current="page">Overview</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="mailto:vetal6550@gmail.com">Support</a>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="Language switch">
+          <button type="button" class="lang-btn active" data-set-lang="en" aria-pressed="true">EN</button>
+          <button type="button" class="lang-btn" data-set-lang="uk" aria-pressed="false">UA</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- ENGLISH VERSION (DEFAULT STATIC HTML) -->
+    <div data-lang="en">
+      <section class="hero">
+        <span class="badge">Android Application · Local-First · ThinkStudio</span>
+        <h1>Auto Journal</h1>
+        <p class="lead">
+          <strong>Auto Journal</strong> is a mobile car management logbook, digital service book, and vehicle expense tracker for Android.
+          Keep complete records of refueling, EV charging, repairs, scheduled maintenance, insurance reminders, and PDF history reports — stored privately on your device with optional cloud backup to your own Google Drive.
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#google-drive">How Google Drive Backup Works</a>
+          <a class="btn btn-secondary" href="privacy.html">Privacy Policy</a>
+          <a class="btn btn-secondary" href="terms.html">Terms of Service</a>
+        </div>
+      </section>
+
+      <h2 class="section-title">What Auto Journal Does</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Multi-Vehicle Garage</h3>
+          <p>Store specs for multiple cars or motorcycles, including make, model, year, VIN, license plate, odometer readings, and fuel or electric powertrain profiles.</p>
+        </article>
+        <article class="card">
+          <h3>Fuel &amp; EV Charging Log</h3>
+          <p>Track fuel fills and kWh charging sessions, automatically compute L/100km or MPG consumption, monitor fuel price trends, and analyze cost per kilometer.</p>
+        </article>
+        <article class="card">
+          <h3>Digital Service Book</h3>
+          <p>Record oil changes, brake replacements, inspections, parts, and repair costs with attached photos of receipts and service invoices.</p>
+        </article>
+        <article class="card">
+          <h3>Smart Reminders</h3>
+          <p>Receive timely local notifications for upcoming maintenance intervals, insurance expiration, mandatory technical inspections, and driver's license renewal.</p>
+        </article>
+        <article class="card">
+          <h3>OBD-II &amp; DTC Diagnostics</h3>
+          <p>Browse Diagnostic Trouble Codes (DTC) and connect compatible ELM327 Bluetooth OBD-II adapters to inspect vehicle fault details and live parameters.</p>
+        </article>
+        <article class="card">
+          <h3>PDF &amp; CSV/JSON Reports</h3>
+          <p>Generate clean PDF service history reports for vehicle resale and export structured CSV/JSON backups at any time.</p>
+        </article>
+      </div>
+
+      <h2 class="section-title" id="google-drive">Google Sign-In &amp; Cloud Sync Transparency</h2>
+      <section class="card">
+        <h2>How Auto Journal Uses Google User Data</h2>
+        <p>
+          <strong>Auto Journal</strong> operates offline-first: all garage records remain in your phone's local SQLite database. Cloud backup via Google Drive is completely optional and only activates when you choose <strong>Sign in with Google</strong> inside Settings.
+        </p>
+        <ul>
+          <li><strong>Requested Scopes:</strong> Only basic <code>email</code> (to display your signed-in account inside Settings) and <code>https://www.googleapis.com/auth/drive.appdata</code>.</li>
+          <li><strong>Hidden App Data Folder Only:</strong> The <code>drive.appdata</code> permission restricts Auto Journal exclusively to its own hidden application folder (<code>appDataFolder</code>) in your personal Google Drive. The app cannot list, read, edit, or delete your personal Drive documents or photos.</li>
+          <li><strong>Zero Developer Access:</strong> Backups go directly from your Android device to your personal Google Drive. ThinkStudio does not operate intermediary servers or store your vehicle logs.</li>
+          <li><strong>Full Control:</strong> You can trigger manual sync/restore, sign out, delete your hidden Drive backup, or revoke access at any time.</li>
+        </ul>
+        <div class="highlight-box">
+          <p>
+            Auto Journal's use and transfer of information received from Google APIs adheres to the
+            <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>,
+            including the Limited Use requirements. Read our full <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-- UKRAINIAN VERSION -->
+    <div data-lang="uk" hidden>
+      <section class="hero">
+        <span class="badge">Мобільний додаток Android · Local-First · ThinkStudio</span>
+        <h1>Auto Journal</h1>
+        <p class="lead">
+          <strong>Auto Journal</strong> — це розумний автомобільний органайзер, електронна сервісна книжка та трекер витрат для Android.
+          Ведіть точний облік заправок і зарядок EV, плануйте ТО, зберігайте чеки, формуйте PDF-звіти та створюйте приватні резервні копії у власному Google Диску.
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#google-drive-uk">Як працює синхронізація з Google Drive</a>
+          <a class="btn btn-secondary" href="privacy.html">Політика конфіденційності</a>
+          <a class="btn btn-secondary" href="terms.html">Умови використання</a>
+        </div>
+      </section>
+
+      <h2 class="section-title">Основні можливості додатку</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Гараж на кілька авто</h3>
+          <p>Зберігайте профілі всіх своїх авто чи мотоциклів: марку, модель, рік, VIN-код, держномер, одометр і тип пального чи електроприводу.</p>
+        </article>
+        <article class="card">
+          <h3>Облік пального та EV-зарядок</h3>
+          <p>Розрахунок витрати в л/100 км або MPG, облік кВт·год для електрокарів, динаміка цін і реальна вартість кожного кілометра пробігу.</p>
+        </article>
+        <article class="card">
+          <h3>Електронна сервісна книжка</h3>
+          <p>Історія замін мастила, фільтрів, гальм та ремонтів із можливістю прикріплювати фото чеків, актів виконаних робіт і полісів.</p>
+        </article>
+        <article class="card">
+          <h3>Розумні нагадування</h3>
+          <p>Локальні сповіщення про наближення ТО, закінчення терміну страхування, техогляду та посвідчення водія.</p>
+        </article>
+        <article class="card">
+          <h3>OBD-II та база кодів DTC</h3>
+          <p>Довідник кодів несправностей (DTC) і локальна робота з діагностичними адаптерами ELM327 Bluetooth.</p>
+        </article>
+        <article class="card">
+          <h3>PDF-звіти та CSV/JSON експорт</h3>
+          <p>Створення професійної PDF-історії авто для продажу та резервний експорт даних у CSV або JSON у будь-який момент.</p>
+        </article>
+      </div>
+
+      <h2 class="section-title" id="google-drive-uk">Вхід через Google і прозорість даних</h2>
+      <section class="card">
+        <h2>Як Auto Journal використовує Google Drive</h2>
+        <p>
+          <strong>Auto Journal</strong> працює за принципом <strong>Local-First</strong>: усі дані зберігаються локально на вашому пристрої. Хмарне резервне копіювання в Google Drive є добровільним і вмикається лише після авторизації в Налаштуваннях.
+        </p>
+        <ul>
+          <li><strong>Лише мінімальні дозволи:</strong> <code>email</code> (для відображення підключеного акаунта) та <code>https://www.googleapis.com/auth/drive.appdata</code>.</li>
+          <li><strong>Тільки прихована папка додатку:</strong> дозвіл <code>drive.appdata</code> дає доступ виключно до прихованої системної папки <code>appDataFolder</code> у вашому особистому Google Диску. Додаток не бачить жодних інших файлів чи папок.</li>
+          <li><strong>Без серверів розробника:</strong> файли резервних копій передаються напряму між вашим телефоном і вашим Google Диском. ThinkStudio не має доступу до ваших записів.</li>
+        </ul>
+        <div class="highlight-box">
+          <p>
+            Ознайомтесь із повною <a href="privacy.html">Політикою конфіденційності</a> та <a href="terms.html">Умовами використання</a>.
+          </p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>&copy; 2026 Auto Journal · ThinkStudio</span>
+      <div class="footer-links">
+        <a href="index.html">Overview</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="mailto:vetal6550@gmail.com">vetal6550@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
